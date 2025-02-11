@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    overflow: hidden; 
+}
+
+.ola {
+    width:0%;
+    height: 100%;
+    background: linear-gradient(to right, #0a1217, #2980b9);
+    position: relative;
+    animation: ola 2s infinite alternate;
+}
+
+@keyframes ola {
+    0% {
+        width:0%;
+        
+    }
+    100% {
+        width:100%;
+        
+    }
+}
+
+
+h1{
+color:red;
+}

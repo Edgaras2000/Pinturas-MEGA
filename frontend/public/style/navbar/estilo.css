@@ -1,0 +1,32 @@
+.borde-color {
+  border-bottom: 4px solid transparent;
+  border-image: linear-gradient(to top left, #d02a09, #fbff02, #001aff) 1 round;
+  border-radius: 10px;
+  animation: move-border 10s linear infinite;
+}
+
+@keyframes move-border {
+  0% {
+    border-image-source: linear-gradient(0deg, #d02a09, #fbff02, #001aff);
+  }
+  50% {
+    border-image-source: linear-gradient(180deg, #d02a09, #fbff02, #001aff);
+  }
+  100% {
+    border-image-source: linear-gradient(360deg, #d02a09, #fbff02, #001aff);
+  }
+}
+
+
+
+@keyframes colorChange {
+  0% {
+      color: #ffffff; 
+  }
+  50% {
+      color: #03fbfc; 
+  }
+  100% {
+      color: #e9074f;
+  }
+}

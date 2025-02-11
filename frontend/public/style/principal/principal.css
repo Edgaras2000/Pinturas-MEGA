@@ -1,0 +1,23 @@
+@keyframes scroll {
+    0% {
+        transform: translateY(100%);
+    }
+    50% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+
+    .carrusel {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .carrusel div {
+        animation: scroll 30s linear infinite;
+    }
