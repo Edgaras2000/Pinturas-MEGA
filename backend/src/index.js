@@ -63,7 +63,7 @@ const upload = multer({
 
 import { MercadoPagoConfig,Preference } from 'mercadopago';
 
-const client = new MercadoPagoConfig({ accessToken: 'TEST-3388897077736139-102712-457fcc8ab52e564226268a4581bef74e-670121506' });
+const client = new MercadoPagoConfig({ accessToken: 'api aqui' });
 
 
 
