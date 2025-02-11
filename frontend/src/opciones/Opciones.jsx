@@ -522,7 +522,7 @@ const Opciones = () => {
                     </div>
 
                     <div className="col-span-2 flex flex-col justify-center items-center">
-                        <LoadScript googleMapsApiKey="AIzaSyABA3bp66epMUkeHaKl7NGgP70ZuuBkf0c" >
+                        <LoadScript googleMapsApiKey="api key aqui" >
                             {selectedView === 'view1' && (
                                 <div className="w-11/12 h-full flex flex-col items-center">
                                     <h1 className="mb-4 text-center font-bold">
